@@ -1,0 +1,43 @@
+import { useTranslation } from "react-i18next";
+
+interface DiscoverNavigationProps {
+  selectedCategory: string;
+  onCategoryChange: (category: string) => void;
+  /** Only offer the "For You" tab once there's a taste profile to draw on. */
+  showForYou?: boolean;
+}
+
+export function DiscoverNavigation({
+  selectedCategory,
+  onCategoryChange,
+  showForYou,
+}: DiscoverNavigationProps) {
+  const { t } = useTranslation();
+
+  const categories = showForYou
+    ? ["foryou", "movies", "tvshows", "editorpicks"]
+    : ["movies", "tvshows", "editorpicks"];
+
+  return (
+    <div className="pb-4 w-full max-w-screen-xl mx-auto">
+      <div className="relative flex justify-center">
+        <div className="flex space-x-4">
+          {categories.map((category) => (
+            <button
+              key={category}
+              type="button"
+              className={`text-xl md:text-2xl font-bold p-2 bg-transparent text-center rounded-full cursor-pointer flex items-center transition-transform duration-200 ${
+                selectedCategory === category
+                  ? "transform scale-105 text-type-link"
+                  : "text-type-secondary"
+              }`}
+              onClick={() => onCategoryChange(category)}
+            >
+              {t(`discover.tabs.${category}`)}
+            </button>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
