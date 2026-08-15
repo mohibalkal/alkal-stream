@@ -36,7 +36,7 @@
     "@formkit/auto-animate": "^0.8.4",
     "@headlessui/react": "^1.7.19",
     "@huggingface/transformers": "^3.8.1",
-    "@kal-Stream/providers": "github:mohibalkal/providers",
+    "@kal-Stream/providers": "git+https://github.com/mohibalkal/providers.git",
     "@ladjs/country-language": "^1.0.3",
     "@marsidev/react-turnstile": "^0.7.2",
     "@noble/hashes": "^1.8.0",
