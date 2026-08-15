@@ -38,7 +38,7 @@ importers:
         version: 3.8.1
       '@kal-Stream/providers':
         specifier: github:mohibalkal/providers
-        version: '@kal-stream/providers@https://codeload.github.com/mohibalkal/providers/tar.gz/983ab312af5ba282dd0dae1f68b1f89d61d10501'
+        version: '@kal-stream/providers@https://codeload.github.com/mohibalkal/providers/tar.gz/514e417455737eb2dc0d7142a99d43dceaca898d'
       '@ladjs/country-language':
         specifier: ^1.0.3
         version: 1.0.3
@@ -1824,8 +1824,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@kal-stream/providers@https://codeload.github.com/mohibalkal/providers/tar.gz/983ab312af5ba282dd0dae1f68b1f89d61d10501':
-    resolution: {tarball: https://codeload.github.com/mohibalkal/providers/tar.gz/983ab312af5ba282dd0dae1f68b1f89d61d10501}
+  '@kal-stream/providers@https://codeload.github.com/mohibalkal/providers/tar.gz/514e417455737eb2dc0d7142a99d43dceaca898d':
+    resolution: {tarball: https://codeload.github.com/mohibalkal/providers/tar.gz/514e417455737eb2dc0d7142a99d43dceaca898d}
     version: 3.2.0
 
   '@ladjs/country-language@1.0.3':
@@ -7236,7 +7236,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@kal-stream/providers@https://codeload.github.com/mohibalkal/providers/tar.gz/983ab312af5ba282dd0dae1f68b1f89d61d10501':
+  '@kal-stream/providers@https://codeload.github.com/mohibalkal/providers/tar.gz/514e417455737eb2dc0d7142a99d43dceaca898d':
     dependencies:
       abort-controller: 3.0.0
       cheerio: 1.0.0-rc.12

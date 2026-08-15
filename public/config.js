@@ -1,10 +1,10 @@
 window.__CONFIG__ = {
   // The URL for the CORS proxy, the URL must NOT end with a slash!
   // If not specified, the onboarding will not allow a "default setup". The user will have to use the extension or set up a proxy themselves
-  VITE_CORS_PROXY_URL: "https://m3u8-proxy.yazankal.workers.dev",
+  VITE_CORS_PROXY_URL: "https://simple-proxy.yazankal.workers.dev",
 
   // The URL for the M3U8 proxy (HLS playlist/segment rewriting). Must NOT end with a slash.
-  VITE_M3U8_PROXY_URL: "https://m3u8-proxy.yazankal.workers.dev",
+  VITE_M3U8_PROXY_URL: "https://simple-proxy.yazankal.workers.dev",
 
   // The READ API key to access TMDB
   VITE_TMDB_READ_API_KEY: "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxOGY1YjE5NjI2MmMzMzFlMmUyOWJjYmU2NTJmZmRiYSIsIm5iZiI6MTcyMzc1OTU0Mi45NzgsInN1YiI6IjY2YmU3YmI2MmJlNTQ2ZDE4ZmMzOGMxMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.mynmNrgUkgSbhSG-v2wGgn2IEOE6vNQx58qEv9kP4V8",
