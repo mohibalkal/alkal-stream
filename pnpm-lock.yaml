@@ -36,6 +36,9 @@ importers:
       '@huggingface/transformers':
         specifier: ^3.0.2
         version: 3.8.1
+      '@kal-Stream/providers':
+        specifier: git+https://github.com/mohibalkal/providers.git
+        version: '@kal-stream/providers@https://codeload.github.com/mohibalkal/providers/tar.gz/659f5b151feb70e42a14e419cd0ddaa6b9686fc0'
       '@ladjs/country-language':
         specifier: ^1.0.3
         version: 1.0.3
@@ -45,9 +48,6 @@ importers:
       '@noble/hashes':
         specifier: ^1.8.0
         version: 1.8.0
-      '@kal-Stream/providers':
-        specifier: file:../providers
-        version: file:../providers
       '@plasmohq/messaging':
         specifier: ^0.6.2
         version: 0.6.2(react@18.3.1)
@@ -1614,6 +1614,10 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
+  '@kal-stream/providers@https://codeload.github.com/mohibalkal/providers/tar.gz/659f5b151feb70e42a14e419cd0ddaa6b9686fc0':
+    resolution: {tarball: https://codeload.github.com/mohibalkal/providers/tar.gz/659f5b151feb70e42a14e419cd0ddaa6b9686fc0}
+    version: 3.2.0
+
   '@ladjs/country-language@1.0.3':
     resolution: {integrity: sha512-FJROu9/hh4eqVAGDyfL8vpv6Vb0qKHX1ozYLRZ+beUzD5xFf+3r0J+SVIWKviEa7W524Qvqou+ta1WrsRgzxGw==}
     engines: {node: '>= 14'}
@@ -1646,9 +1650,6 @@ packages:
   '@nolyfill/is-core-module@1.0.39':
     resolution: {integrity: sha512-nn5ozdjYQpUCZlWGuxcJY/KpxkWQs4DcbMCmKojjyrYDEAGy4Ce19NN4v5MduafTwJlbKc99UA8YhSVqq9yPZA==}
     engines: {node: '>=12.4.0'}
-
-  '@kal-Stream/providers@file:../providers':
-    resolution: {directory: ../providers, type: directory}
 
   '@pkgjs/parseargs@0.11.0':
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
@@ -7001,6 +7002,22 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
+  '@kal-stream/providers@https://codeload.github.com/mohibalkal/providers/tar.gz/659f5b151feb70e42a14e419cd0ddaa6b9686fc0':
+    dependencies:
+      abort-controller: 3.0.0
+      cheerio: 1.0.0-rc.12
+      cookie: 0.6.0
+      crypto-js: 4.2.0
+      form-data: 4.0.4
+      fuse.js: 7.1.0
+      hls-parser: 0.13.6
+      iso-639-1: 3.1.5
+      json5: 2.2.3
+      nanoid: 3.3.11
+      node-fetch: 3.3.2
+      set-cookie-parser: 2.7.2
+      unpacker: 1.0.1
+
   '@ladjs/country-language@1.0.3': {}
 
   '@marsidev/react-turnstile@0.7.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
@@ -7030,22 +7047,6 @@ snapshots:
       fastq: 1.19.1
 
   '@nolyfill/is-core-module@1.0.39': {}
-
-  '@kal-Stream/providers@file:../providers':
-    dependencies:
-      abort-controller: 3.0.0
-      cheerio: 1.0.0-rc.12
-      cookie: 0.6.0
-      crypto-js: 4.2.0
-      form-data: 4.0.4
-      fuse.js: 7.1.0
-      hls-parser: 0.13.6
-      iso-639-1: 3.1.5
-      json5: 2.2.3
-      nanoid: 3.3.11
-      node-fetch: 3.3.2
-      set-cookie-parser: 2.7.2
-      unpacker: 1.0.1
 
   '@pkgjs/parseargs@0.11.0':
     optional: true
