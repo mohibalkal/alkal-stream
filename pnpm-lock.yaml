@@ -36,9 +36,6 @@ importers:
       '@huggingface/transformers':
         specifier: ^3.8.1
         version: 3.8.1
-      '@kal-Stream/providers':
-        specifier: git+https://github.com/mohibalkal/providers.git
-        version: '@p-stream/providers@https://codeload.github.com/mohibalkal/providers/tar.gz/ccaa5657e25b6d1ff01c7c2ce83fa57a18d03352'
       '@ladjs/country-language':
         specifier: ^1.0.3
         version: 1.0.3
@@ -48,6 +45,9 @@ importers:
       '@noble/hashes':
         specifier: ^1.8.0
         version: 1.8.0
+      '@p-stream/providers':
+        specifier: github:mohibalkal/providers
+        version: https://codeload.github.com/mohibalkal/providers/tar.gz/13f56d19bf93428dfa233d9b3623e978e068d7a4
       '@plasmohq/messaging':
         specifier: ^0.6.2
         version: 0.6.2(react@18.3.1)
@@ -1857,8 +1857,8 @@ packages:
     resolution: {integrity: sha512-nn5ozdjYQpUCZlWGuxcJY/KpxkWQs4DcbMCmKojjyrYDEAGy4Ce19NN4v5MduafTwJlbKc99UA8YhSVqq9yPZA==}
     engines: {node: '>=12.4.0'}
 
-  '@p-stream/providers@https://codeload.github.com/mohibalkal/providers/tar.gz/ccaa5657e25b6d1ff01c7c2ce83fa57a18d03352':
-    resolution: {tarball: https://codeload.github.com/mohibalkal/providers/tar.gz/ccaa5657e25b6d1ff01c7c2ce83fa57a18d03352}
+  '@p-stream/providers@https://codeload.github.com/mohibalkal/providers/tar.gz/13f56d19bf93428dfa233d9b3623e978e068d7a4':
+    resolution: {tarball: https://codeload.github.com/mohibalkal/providers/tar.gz/13f56d19bf93428dfa233d9b3623e978e068d7a4}
     version: 3.2.0
 
   '@pkgjs/parseargs@0.11.0':
@@ -7266,7 +7266,7 @@ snapshots:
 
   '@nolyfill/is-core-module@1.0.39': {}
 
-  '@p-stream/providers@https://codeload.github.com/mohibalkal/providers/tar.gz/ccaa5657e25b6d1ff01c7c2ce83fa57a18d03352':
+  '@p-stream/providers@https://codeload.github.com/mohibalkal/providers/tar.gz/13f56d19bf93428dfa233d9b3623e978e068d7a4':
     dependencies:
       abort-controller: 3.0.0
       cheerio: 1.0.0-rc.12
