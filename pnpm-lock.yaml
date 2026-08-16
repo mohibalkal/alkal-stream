@@ -36,6 +36,9 @@ importers:
       '@huggingface/transformers':
         specifier: ^3.8.1
         version: 3.8.1
+      '@kal-Stream/providers':
+        specifier: git+https://github.com/mohibalkal/providers.git
+        version: '@p-stream/providers@https://codeload.github.com/mohibalkal/providers/tar.gz/ccaa5657e25b6d1ff01c7c2ce83fa57a18d03352'
       '@ladjs/country-language':
         specifier: ^1.0.3
         version: 1.0.3
@@ -45,9 +48,6 @@ importers:
       '@noble/hashes':
         specifier: ^1.8.0
         version: 1.8.0
-      '@p-stream/providers':
-        specifier: github:mohibalkal/providers
-        version: https://codeload.github.com/mohibalkal/providers/tar.gz/ccaa5657e25b6d1ff01c7c2ce83fa57a18d03352
       '@plasmohq/messaging':
         specifier: ^0.6.2
         version: 0.6.2(react@18.3.1)
