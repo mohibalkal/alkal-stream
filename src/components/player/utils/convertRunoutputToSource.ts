@@ -1,4 +1,4 @@
-import { Stream } from "@kal-Stream/providers";
+import { Stream } from "@p-stream/providers";
 
 import {
   SourceFileStream,

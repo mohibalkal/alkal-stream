@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import { labelToLanguageCode } from "@kal-Stream/providers";
+import { labelToLanguageCode } from "@p-stream/providers";
 
 import { CaptionListItem } from "@/stores/player/slices/source";
 

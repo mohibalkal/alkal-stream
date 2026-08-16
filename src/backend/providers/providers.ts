@@ -2,7 +2,7 @@ import {
   makeProviders,
   makeStandardFetcher,
   targets,
-} from "@kal-Stream/providers";
+} from "@p-stream/providers";
 
 import { isExtensionActiveCached } from "@/backend/extension/messaging";
 import {

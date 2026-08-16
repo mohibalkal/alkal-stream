@@ -1,4 +1,4 @@
-import { MetaOutput } from "@kal-Stream/providers";
+import { MetaOutput } from "@p-stream/providers";
 import { jwtDecode } from "jwt-decode";
 
 let metaDataCache: MetaOutput[] | null = null;

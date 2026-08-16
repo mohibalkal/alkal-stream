@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import { ScrapeMedia } from "@kal-Stream/providers";
+import { ScrapeMedia } from "@p-stream/providers";
 
 import { downloadCaption } from "@/backend/helpers/subs";
 import { TTMLCue } from "@/components/player/utils/ttml";

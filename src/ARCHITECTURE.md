@@ -14,7 +14,7 @@ src/
 │   ├── helpers/       #   Fetch wrappers, provider API glue, subtitle download
 │   ├── metadata/      #   TMDB / IMDB / Trakt / JustWatch / Letterboxd lookups
 │   ├── player/        #   Player status reporting
-│   └── providers/     #   @kal-Stream/providers wiring (fetchers, provider list)
+│   └── providers/     #   @p-stream/providers wiring (fetchers, provider list)
 │                      #   + localProviderShim.ts (temp stubs for private-pkg APIs)
 ├── stores/            # Zustand stores, one folder per domain
 │   └── __old/         #   Legacy store migrations — DO NOT TOUCH (see marker file)

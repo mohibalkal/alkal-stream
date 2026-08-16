@@ -1,4 +1,4 @@
-import { ScrapeMedia } from "@kal-Stream/providers";
+import { ScrapeMedia } from "@p-stream/providers";
 import React, { ReactNode, useEffect, useMemo, useRef } from "react";
 import { useTranslation } from "react-i18next";
 

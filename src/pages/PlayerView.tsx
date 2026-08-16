@@ -1,4 +1,4 @@
-import { RunOutput } from "@kal-Stream/providers";
+import { RunOutput } from "@p-stream/providers";
 import { useCallback, useEffect, useRef, useState } from "react";
 import {
   Navigate,

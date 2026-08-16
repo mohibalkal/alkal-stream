@@ -1,4 +1,4 @@
-import { labelToLanguageCode } from "@kal-Stream/providers";
+import { labelToLanguageCode } from "@p-stream/providers";
 import classNames from "classnames";
 import Fuse from "fuse.js";
 import { type DragEvent, useEffect, useMemo, useRef, useState } from "react";
